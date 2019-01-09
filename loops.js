@@ -23,7 +23,19 @@ function forLoop(array) {
      return 'done';
    }
    
-/*Define a function called doWhileLoop in loops.js. The function should take an array as an argument. Use the incrementVariable() function (you can copy it from this README) as the condition, and remove elements from the array until the array is empty or until incrementVariable() returns false. (Your condition might look something like array.length > 0 && incrementVariable().) Finally, return the array.*/
+/*Define a function called doWhileLoop in loops.js. The function should take an array as an argument. Use the incrementVariable() function (you can copy it from this README) as the condition, and remove elements from the array until the array is empty or until incrementVariable() returns false. (Your condition might look something like array.length > 0 && incrementVariable().) Finally, return the array.
+
+  describe('doWhileLoop(array)', () => {
+    it('removes elements from `array` until `array` is empty or until `incrementVariable()` returns `false`', () => {
+      const [array, t] = makeArray()
+      const l = array.length
+
+      const newArray = doWhileLoop(array)
+
+      expect(newArray).to.have.length.of.at.most(l - 1)
+    })
+  })
+})*/
  
 function doWhileLoop(array) {
    function maybeTrue() {
