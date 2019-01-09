@@ -1,13 +1,4 @@
-/*function makeArray() {
-  const array = []
-  const t = 10
-
-  for (let i = 0; i < t; i++) {
-    array.push("I am a strange loop.")
-  }
-
-  return [array, t]
-}*/
+/*Build a function forLoop. It takes an array as an argument. Start counting from 0, and, using a for loop, add a string to the array 25 times. But not just any string. If your i value is 1, add the string "I am 1 strange loop."; if your i value is anything else, add the string "I am ${i} strange loops."}*/
 
 function forLoop(array) {
   for (let i = 0; i < 25; i++) {
