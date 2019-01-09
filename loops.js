@@ -15,7 +15,7 @@ function forLoop(array) {
 /*Create a function called whileLoop in loops.js. The function should take a number as an argument. Using a while loop, count down (using console.log) from the passed in number to 0. Then return the string 'done'*/
 
  function whileLoop(n) {
-   let countdown = 100;
+   let countdown = n;
  
       while (countdown > 0) {
        console.log(--countdown)
