@@ -22,6 +22,8 @@ function forLoop(array) {
      }
      return 'done';
    }
+   
+/*Define a function called doWhileLoop in loops.js. The function should take an array as an argument. Use the incrementVariable() function (you can copy it from this README) as the condition, and remove elements from the array until the array is empty or until incrementVariable() returns false. (Your condition might look something like array.length > 0 && incrementVariable().) Finally, return the array.*/
  
 function doWhileLoop(array) {
    function maybeTrue() {
@@ -34,3 +36,5 @@ function doWhileLoop(array) {
     while (array.length > -1 && maybeTrue());
      return array;
  }
+ 
+ 
