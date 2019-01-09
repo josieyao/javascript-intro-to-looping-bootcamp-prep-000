@@ -39,15 +39,15 @@ function forLoop(array) {
  
 function doWhileLoop(array) {
   var i = 0;
-   function incrementVariable() {
+  
+  function incrementVariable() {
      i = i + 1;
    }
- 
-    do {
+   
+   do {
      array.pop();
-    } 
-    while (array.length > -1 && incrementVariable());
-     return array;
- }
+   } while (array.length > -1 && incrementVariable());
+   return array;
+}
  
  
